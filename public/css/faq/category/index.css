@@ -1,0 +1,295 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 {
+  background-color: #F2EAD8;
+}
+
+main section.s01 .wrapper {
+  padding-top: 30px;
+}
+
+main section.s01 .wrapper .t01 {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+main section.s01 .wrapper h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin-top: 10px;
+}
+
+main section.s01 .wrapper .box01 {
+  padding: 80px 50px 70px;
+  margin-top: 30px;
+  background-color: #F2F2F2;
+}
+
+main section.s01 .wrapper .box01 .box02 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main section.s01 .wrapper .box01 .box02 ul li + li {
+  margin-top: 30px;
+}
+
+main section.s01 .wrapper .box01 .box02 ul li a {
+  text-decoration: none;
+  display: block;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+}
+
+main section.s01 .wrapper .box01 .box02 ul li a dl {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+main section.s01 .wrapper .box01 .box02 ul li a dl dt {
+  width: calc(50% - 85px);
+}
+
+main section.s01 .wrapper .box01 .box02 ul li a dl dt img {
+  width: 100%;
+  display: block;
+}
+
+main section.s01 .wrapper .box01 .box02 ul li a dl dd {
+  width: calc(50% + 45px);
+  padding-right: 60px;
+  background-image: url(../../../images/icon_arrow04.svg);
+  background-size: 12px auto;
+  background-repeat: no-repeat;
+  background-position: center right 5px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 21px;
+  line-height: 195%;
+  color: #333333;
+  letter-spacing: 4px;
+}
+
+main section.s02 .wrapper {
+  padding: 60px 50px 80px;
+}
+
+main section.s02 .wrapper h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+main section.s02 .wrapper ul {
+  max-width: 1060px;
+  margin: 20px auto 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+main section.s02 .wrapper ul li {
+  width: calc((100% - 60px) / 3);
+  margin-top: 30px;
+}
+
+main section.s02 .wrapper ul li a {
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding-bottom: 30px;
+}
+
+main section.s02 .wrapper ul li a img {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 .wrapper ul li a .t01 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #1E4E99;
+}
+
+main section.s02 .wrapper ul li a .t02 {
+  width: 190px;
+  height: 48px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 14px;
+  padding-top: 17px;
+  background-color: #1E4E99;
+  margin: 20px auto 0;
+  background-image: url(../../images/icon_arrow03.svg);
+  background-size: 7px auto;
+  background-repeat: no-repeat;
+  background-position: center right 25px;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 {
+    background-color: #F2EAD8;
+  }
+  main section.s01 .wrapper {
+    padding-top: 20px;
+  }
+  main section.s01 .wrapper .t01 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  main section.s01 .wrapper h2 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 140%;
+    margin-top: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  main section.s01 .wrapper .box01 {
+    padding: 30px 20px;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+  }
+  main section.s01 .wrapper .box01 .box02 {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  main section.s01 .wrapper .box01 .box02 ul li + li {
+    margin-top: 15px;
+  }
+  main section.s01 .wrapper .box01 .box02 ul li a {
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    padding: 15px;
+  }
+  main section.s01 .wrapper .box01 .box02 ul li a dl {
+    display: block;
+  }
+  main section.s01 .wrapper .box01 .box02 ul li a dl dt {
+    width: 100%;
+  }
+  main section.s01 .wrapper .box01 .box02 ul li a dl dt img {
+    width: 100%;
+    display: block;
+  }
+  main section.s01 .wrapper .box01 .box02 ul li a dl dd {
+    width: 100%;
+    padding-right: 40px;
+    margin-top: 10px;
+    background-image: url(../../../images/icon_arrow04.svg);
+    background-size: 8px auto;
+    background-repeat: no-repeat;
+    background-position: center right 5px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 195%;
+    color: #333333;
+    letter-spacing: 2px;
+  }
+  main section.s02 .wrapper {
+    padding: 50px 20px 50px;
+  }
+  main section.s02 .wrapper h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  main section.s02 .wrapper ul {
+    max-width: 950px;
+    margin: 20px auto 0;
+    display: block;
+  }
+  main section.s02 .wrapper ul li {
+    width: 100%;
+    margin-top: 15px;
+  }
+  main section.s02 .wrapper ul li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-bottom: 30px;
+  }
+  main section.s02 .wrapper ul li a img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper ul li a .t01 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1E4E99;
+  }
+  main section.s02 .wrapper ul li a .t02 {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    padding-top: 13px;
+    background-color: #1E4E99;
+    margin: 15px auto 0;
+    background-image: url(../../images/icon_arrow03.svg);
+    background-size: 5px auto;
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+  }
+}

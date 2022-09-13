@@ -1,0 +1,479 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+
+$wrapperWidth: 1060px;
+$wineRed: #a4272d;
+$titleColor: #42210b;
+$tablet: 880px;
+$largeSp: 600px;
+$sp: 470px;
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.whitespace-h-20 {
+  width: 20px;
+}
+
+.whitespace-v-20 {
+  height: 20px;
+}
+
+.unchange-flex-direction-on-tablet {
+  @media screen and (max-width: $tablet) {
+    flex-direction: row !important;
+  }
+
+  @media screen and (max-width: $largeSp) {
+    flex-direction: column !important;
+  }
+
+  @media screen and (max-width: $sp) {
+    flex-direction: column !important;
+  }
+}
+
+.unchange-flex-direction-on-large-sp {
+  @media screen and (max-width: $tablet) {
+    flex-direction: row !important;
+  }
+
+  @media screen and (max-width: $largeSp) {
+    flex-direction: row !important;
+  }
+
+  @media screen and (max-width: $sp) {
+    flex-direction: column !important;
+  }
+}
+
+.unchange-flex-direction-on-sp {
+  @media screen and (max-width: $tablet) {
+    flex-direction: row !important;
+  }
+
+  @media screen and (max-width: $largeSp) {
+    flex-direction: row !important;
+  }
+
+  @media screen and (max-width: $sp) {
+    flex-direction: row !important;
+  }
+}
+
+#page-seminar-detail {
+  a {
+    color: #007197;
+    text-decoration: none;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    @media screen and (max-width: $tablet) {
+      flex-direction: column;
+    }
+  }
+
+  .wine-red {
+    color: $wineRed;
+  }
+
+  section {
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+  }
+
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 20px 50px 90px;
+    @media screen and (max-width: 880px) {
+      padding: 20px 20px 30px;
+    }
+  }
+
+  .fv {
+    .sentence {
+      margin: 0 40px;
+      @media screen and (max-width: $tablet) {
+        margin: 0;
+      }
+    }
+
+    .title-wrap {
+      margin-right: 10px;
+      margin-top: 6px;
+    }
+
+    .title, .subtitle {
+      color: $titleColor;
+      letter-spacing: .2rem;
+      font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    }
+
+    .title {
+      font-size: 30px;
+      font-weight: 500;
+
+      @media screen and (max-width: 600px) {
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1.3;
+      }
+    }
+
+    .subtitle {
+      font-size: min(2.5vw, 24px);
+      font-weight: 300;
+      @media screen and (max-width: $sp) {
+        font-size: max(14px, 2.5vw);
+      }
+    }
+
+    .online-offline {
+      height: 120px;
+      width: 120px;
+      min-width: 120px;
+      color: #9c272d;
+      background-color: rgba(156, 39, 45, 0.1);
+      font-weight: 400;
+      font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+
+      @media screen and (max-width: $tablet) {
+        min-width: 100px;
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: $largeSp) {
+        min-width: 80px;
+        width: 80px;
+        height: 80px;
+        font-size: 12px;
+      }
+    }
+
+    .fv-image {
+      margin-top: 36px;
+      @media screen and (max-width: $sp) {
+        margin-top: 18px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .schedule-table-wrap {
+    padding: 0 60px;
+    @media screen and (max-width: $tablet) {
+      padding: 0;
+    }
+
+    .schedule-table, td {
+      border: 1px solid #cccccc;
+    }
+
+    .schedule-table {
+      margin: 0 auto;
+      width: 100%;
+
+      tbody {
+        tr {
+          background-color: #f7f7f7;
+          @media screen and (max-width: $sp) {
+            border: none;
+          }
+
+          td {
+            font-size: 18px;
+            padding: 40px 20px;
+            @media screen and (max-width: $sp) {
+              display: block;
+              width: 100%;
+              border: none;
+              padding: 20px;
+            }
+
+            .date {
+              padding: 20px 40px;
+              background-color: #fff;
+              font-size: 26px;
+
+              @media screen and (max-width: $sp) {
+                margin-top: 10px;
+                padding: 20px;
+                font-size: 20px;
+              }
+            }
+
+            .time {
+              margin-top: 20px;
+              text-align: center;
+
+              div {
+                margin: 8px 0;
+              }
+            }
+
+            .mark {
+              display: inline-block;
+              border: 1px solid $wineRed;
+              padding: 2px 16px 4px;
+            }
+
+            ol {
+              list-style-type: decimal;
+              padding-left: 36px;
+            }
+          }
+
+          td:first-of-type {
+            width: 20%;
+
+            @media screen and (max-width: $sp) {
+              font-size: 14px;
+              width: 100%;
+              padding: 6px 10px;
+              font-weight: bold;
+              background-color: #dedede;
+            }
+          }
+
+          td:last-of-type {
+            @media screen and (max-width: $sp) {
+              font-size: 14px;
+              padding: 16px;
+              padding-top: 8px;
+            }
+          }
+
+          .fee {
+            @media screen and (max-width: $sp) {
+              text-align: center;;
+            }
+          }
+        }
+
+        tr:nth-child(2n) {
+          background-color: #fff;
+        }
+      }
+    }
+    .contact {
+      width: 500px;
+      margin: 80px auto 0;
+
+      &.clickable {
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: $largeSp) {
+        width: 100%;
+        margin-top: 40px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .heading-image {
+    width: 80px;
+    margin: 0 auto;
+    @media screen and (max-width: $tablet) {
+      width: 60px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .tutor-box {
+    // background-color: #fbf6e6;
+    margin-top: 40px;
+    padding: 40px;
+    @media screen and (max-width: $largeSp) {
+      padding: 20px;
+    }
+
+    .profile-wrapper {
+      min-width: 300px;
+
+      @media screen and (max-width: $tablet) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      @media screen and (max-width: 440px) {
+        flex-direction: column;
+        min-width: unset;
+        margin-bottom: 20px;
+      }
+
+      .profile-image {
+        width: 200px;
+        margin: 0 auto;
+
+        @media screen and (max-width: $tablet) {
+          margin: 0;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+      .description {
+        margin-left: 20px;
+
+        @media screen and (max-width: $sp) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .introduction {
+      font-size: 18px;
+      line-height: 2;
+      @media screen and (max-width: $sp) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .location-bg {
+    // background-color: #fbf6e6;
+    padding-top: 80px;
+
+    .heading-image {
+      margin-bottom: 80px;
+      @media screen and (max-width: 880px) {
+        margin-bottom: 40px;
+      }
+    }
+
+    .location-image {
+      width: 49%;
+
+      &:first-of-type {
+        margin-right: 1%;
+      }
+
+      &:last-of-type {
+        margin-left: 1%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .location {
+      text-align: center;
+      margin: 20px 0 60px;
+      font-size: 20px;
+
+      @media screen and (max-width: $sp) {
+        font-size: 14px;
+      }
+    }
+
+    .clipping-box {
+      background-color: #fff;
+      font-size: 18px;
+      line-height: 2;
+      padding: 40px;
+
+      @media screen and (max-width: $sp) {
+        padding: 20px;
+        font-size: 14px;
+      }
+
+      .heading {
+        font-weight: bold;
+      }
+    }
+
+    .access {
+      .title {
+        color: $titleColor;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 26px;
+      }
+
+      .map {
+        margin-right: 2%;
+        width: 48%;
+        min-width: 400px;
+        height: 300px;
+
+        @media screen and (max-width: $tablet) {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: $sp) {
+          min-width: unset;
+        }
+
+        iframe {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+
+    .contact {
+      width: 500px;
+      margin: 80px auto 0;
+
+      &.clickable {
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: $largeSp) {
+        width: 100%;
+        margin-top: 40px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

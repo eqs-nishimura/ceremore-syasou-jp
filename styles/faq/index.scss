@@ -1,0 +1,452 @@
+$tablet: 880px;
+$largeSp: 600px;
+$sp: 470px;
+$deepBgColor: #ded8bd;
+$slightBgColor: #f1efe3;
+
+/* ------------------------------
+ width: all
+------------------------------ */
+#page-faq{
+.flex-wrapper {
+  display: flex;
+}
+
+main section.s01 {
+  background-color: #F2EAD8;
+}
+
+main section.s01 .wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 20px 50px 30px;
+  @media screen and (max-width: 880px) {
+    padding: 20px;
+  }
+
+  .fv {
+    margin: 20px 0 50px;
+
+    div {
+      img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .sentence {
+      margin: -60px 40px 0;
+      .main {
+        font-size: min(3vw, 30px);
+        font-weight: bold;
+        letter-spacing: 0.5rem;
+      }
+
+      .caption {
+        max-width: 80%;
+        margin-top: 20px;
+        line-height: 2;
+      }
+
+      @media screen and (max-width: $tablet) {
+        .caption {
+          max-width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
+        margin: -30px 20px 0;
+      }
+
+      @media screen and (max-width: $largeSp) {
+        .main {
+          font-size: max(16px, 3.2vw);
+          letter-spacing: 0.3rem;
+        }
+
+        .caption {
+          font-size: 14px;
+        }
+      }
+
+      @media screen and (max-width: $sp) {
+        margin: -10px 0 0;
+        .main {
+          letter-spacing: 0.1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: $largeSp) {
+      margin: 20px 0 50px;
+    }
+  }
+}
+
+main section.faq {
+  background-color: $deepBgColor;
+  background-size: cover;
+  background-position: center center;
+  padding: 18px 0;
+  margin-bottom: 24px;
+
+  @media screen and (max-width: $largeSp) {
+    padding: 12px 0;
+  }
+
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+
+  .faq-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width: 1030px) {
+      margin: 0 12px;
+    }
+
+    // @media screen and (max-width: 640px) {
+    //   justify-content: space-around;
+    // }
+
+    &::after {
+      display: block;
+      content: "";
+      width: 32%;
+      margin: 8px 4px;
+      @media screen and (max-width: 1030px) {
+        max-width: 300px;
+      }
+      @media screen and (max-width: 640px) {
+        max-width: none;
+        width: 47%;
+      }
+    }
+  }
+
+  .covid-banner-wrapper {
+    width: 80%;
+    margin: 50px auto;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      &.sp {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: $largeSp) {
+      width: 100%;
+      margin-bottom: 0;
+      img {
+        display: none;
+        &.sp {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.faq-box {
+  padding: 20px;
+  // background-color: #fbf6e6;
+  @media screen and (max-width: $largeSp) {
+    padding: 0;
+  }
+
+  &.first-faq {
+    background-image: none;
+  }
+
+  &.other-faq {
+    min-width: 45%;
+    max-width: 45%;
+    padding: 40px;
+    margin: 20px 0;
+
+    @media screen and (max-width: $tablet) {
+      max-width: unset;
+    }
+
+    @media screen and (max-width: $sp) {
+      padding: 12px;
+    }
+  }
+
+  div {
+    margin: 20px 0;
+    @media screen and (max-width: $sp) {
+      margin: 12px 0;
+    }
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    @media screen and (max-width: $largeSp) {
+      margin-bottom: 0;
+    }
+  }
+
+  .list {
+    @media screen and (max-width: $largeSp) {
+      margin-top: -10px;
+    }
+  }
+
+  .caption {
+    line-height: 2;
+    @media screen and (max-width: $largeSp) {
+      line-height: 1.5;
+      font-size: 14px;
+    }
+  }
+
+  .list {
+    ul {
+      li {
+        background-color: #fff;
+        padding: 20px;
+        padding-right: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 10px 0;
+        &:first-of-type, &:last-of-type {
+          margin: 0;
+        }
+
+        &:hover {
+          opacity: 0.6;
+          transition: 0.4s;
+        }
+
+        div {
+          margin: 0;
+          display: flex;
+          align-items: center;
+        }
+
+        .img-area {
+          width: 40%;
+          img {
+            width: 100%
+          }
+        }
+
+        .content {
+          width: 50%;
+          margin-left: 8px;
+          font-size: 14px;
+        }
+
+        .arrow {
+          width: 10%;
+          justify-content: center;
+
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    max-width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.6;
+      transition: 0.4s;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.faq-wrapper {
+  align-items: stretch;
+  .separator {
+    margin: 0 10px;
+    border-left: 0.5px solid #ccc;
+    border-right: 0.5px solid #ccc;
+    width: 1px;
+    height: auto;
+
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+      height: 1px;
+      border-left: none;
+      border-right: none;
+      border-top: 0.5px solid #ccc;
+      border-bottom: 0.5px solid #ccc;
+    }
+
+    @media screen and (max-width: $largeSp) {
+      margin: 20px 0;
+    }
+  }
+}
+
+main section.s02 .wrapper .faq-wrapper {
+  flex-wrap: wrap;
+}
+
+main section.s02 {
+  margin-top: 100px;
+  @media screen and (max-width: $largeSp) {
+    margin-top: 10px;
+  }
+
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+    // @media screen and (max-width: 880px) {
+    //   padding: 20px;
+    // }
+  }
+}
+
+main section.s02 .wrapper h3 {
+  text-align: center;
+  margin-bottom: 100px;
+  @media screen and (max-width: $largeSp) {
+    margin-bottom: 30px;
+  }
+  img {
+    width: 60px;
+
+    @media screen and (max-width: $sp) {
+      width: 50px;
+    }
+  }
+}
+
+main section.reference {
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px 50px;
+  }
+
+  .banner-button {
+    width: 30%;
+    cursor: pointer;
+
+    @media screen and (max-width: $largeSp) {
+      width: 100%;
+      margin: 0 0 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &:hover {
+      opacity: 0.6;
+      transition: 0.4s;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 {
+    background-color: #F2EAD8;
+  }
+  main section.s01 .wrapper {
+    padding-top: 20px;
+  }
+
+  main section.s02 .wrapper {
+    padding: 50px 20px 50px;
+  }
+  main section.s02 .wrapper h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  main section.s02 .wrapper ul {
+    max-width: 950px;
+    margin: 20px auto 0;
+    display: block;
+  }
+  main section.s02 .wrapper ul li {
+    width: 100%;
+    margin-top: 15px;
+  }
+  main section.s02 .wrapper ul li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-bottom: 30px;
+  }
+  main section.s02 .wrapper ul li a img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper ul li a .t01 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1E4E99;
+  }
+  main section.s02 .wrapper ul li a .t02 {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    padding-top: 13px;
+    background-color: #1E4E99;
+    margin: 15px auto 0;
+    background-image: url(/images/icon_arrow03.svg);
+    background-size: 5px auto;
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+  }
+}
+
+@media screen and (max-width: $sp) {
+  main section.s02 .wrapper {
+    padding: 50px 0 50px;
+  }
+
+  main section.s02 .wrapper ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+  }
+}
+}

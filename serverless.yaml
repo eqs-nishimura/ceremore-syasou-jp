@@ -1,0 +1,25 @@
+# https://github.com/serverless-nextjs/serverless-next.js
+# https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml
+myNextApplication:
+  component: "@sls-next/serverless-component@3.6.0"
+  inputs:
+    bucketName: ceremore-syasou-jp-knkn
+    bucketRegion: ap-northeast-1
+    # roleArn: "arn:aws:iam::125843355691:role/ZNextTestRole" # "arn:aws:iam::125843355691:role/CeremoreSyasouJpRole"
+    name:
+      defaultLambda: CeremoreSyasouJp
+      apiLambda: CeremoreSyasouJpApi
+      imageLambda: CeremoreSyasouJpImage
+    description: "syasou.jp Next.js Template" # "ceremore.co.jp Next.js Template"
+    timeout: 30
+    memory: 512
+    # architecture: arm64
+    # cloudfront:
+    #   distributionId: E1NQ5TLSL6BZBG
+    #   origins:
+    #     - url: https://foo.firebaseapp.com/__
+    #       pathPatterns:
+    #         /__/*:
+    #           minTTL: 0
+    #           maxTTL: 0
+    #           defaultTTL: 0

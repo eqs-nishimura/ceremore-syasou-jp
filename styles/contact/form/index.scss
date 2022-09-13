@@ -1,0 +1,610 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+#page-contact-form{
+main section.s01 {
+  background-color: #F2EAD8;
+  padding-bottom: 90px;
+}
+
+main section.s01 .wrapper {
+  padding-top: 30px;
+}
+
+main section.s01 .wrapper h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+main section.s01 .wrapper .t01 {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+main section.s01 .wrapper .flow {
+  max-width: 950px;
+  margin: 80px auto 0;
+  width: calc(100% - 100px);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+main section.s01 .wrapper .flow li {
+  width: calc((100% - 80px) / 3);
+  background-color: #fff;
+  border-radius: 40px;
+  color: #24388E;
+  text-align: center;
+  font-size: 21px;
+  line-height: 30px;
+  padding: 15px 0;
+  position: relative;
+}
+
+main section.s01 .wrapper .flow li::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  display: block;
+  background-color: #24388E;
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  margin-top: -1.5px;
+}
+
+main section.s01 .wrapper .flow li:last-child::before {
+  display: none;
+}
+
+main section.s01 .wrapper .flow li.active {
+  color: #fff;
+  background-color: #24388E;
+}
+
+main section.s01 .wrapper table {
+  width: 1080px;
+  margin: 60px auto 0;
+  max-width: calc(100% - 100px);
+}
+
+main section.s01 .wrapper table tr {
+  border-bottom: 1px solid #aaa;
+}
+
+main section.s01 .wrapper table tr:last-child {
+  border: none;
+}
+
+main section.s01 .wrapper table tr th {
+  width: 23%;
+  padding: 26px 0 26px 45px;
+  vertical-align: top;
+  font-size: 21px;
+}
+
+main section.s01 .wrapper table tr td.td01 {
+  width: 11.5%;
+  padding: 26px 0;
+  vertical-align: top;
+}
+
+main section.s01 .wrapper table tr td.td01 span {
+  display: inline-block;
+  background-color: #8D2121;
+  width: 68px;
+  height: 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+main section.s01 .wrapper table tr td.td02 {
+  padding: 15px 45px 15px 0;
+}
+
+main section.s01 .wrapper table tr td.td02 input[type="text"] {
+  width: 100% !important;
+  padding: 15px;
+  line-height: 25px;
+  display: block !important;
+  border: none !important;
+}
+
+main section.s01 .wrapper table tr td.td02 textarea {
+  width: 100% !important;
+  height: 310px !important;
+  padding: 15px;
+  line-height: 25px;
+  display: block !important;
+  border: none !important;
+}
+
+main section.s01 .wrapper .t02 {
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 4px;
+  margin-top: 90px;
+  font-weight: bold;
+}
+
+main section.s01 .wrapper .policy {
+  background-color: #F9F6EE;
+  max-width: 750px;
+  height: 194px;
+  overflow-y: scroll;
+  margin: 35px auto 0;
+  padding: 30px 40px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+main section.s01 .wrapper .btn_submit {
+  width: 450px;
+  height: 80px;
+  display: block;
+  border: none !important;
+  border-radius: 40px;
+  margin: 60px auto 0;
+  background-color: #24388E;
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+
+footer .wrapper .topcontents {
+  display: none;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 {
+    background-color: #F2EAD8;
+    padding-bottom: 50px;
+  }
+  main section.s01 .wrapper {
+    padding-top: 20px;
+  }
+  main section.s01 .wrapper h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  main section.s01 .wrapper .t01 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5px;
+  }
+  main section.s01 .wrapper .flow {
+    max-width: 950px;
+    margin: 40px auto 0;
+    width: 100%;
+    padding: 0 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+  }
+  main section.s01 .wrapper .flow li {
+    width: calc((100% - 40px) / 3);
+    background-color: #fff;
+    border-radius: 40px;
+    color: #24388E;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    position: relative;
+  }
+  main section.s01 .wrapper .flow li::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: #24388E;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    margin-top: -1px;
+  }
+  main section.s01 .wrapper .flow li:last-child::before {
+    display: none;
+  }
+  main section.s01 .wrapper .flow li.active {
+    color: #fff;
+    background-color: #24388E;
+  }
+  main section.s01 .wrapper table {
+    width: calc(100% - 40px);
+    max-width: 100%;
+    margin: 30px auto 0;
+  }
+  main section.s01 .wrapper table tr {
+    display: block;
+    border: none;
+  }
+  main section.s01 .wrapper table tr::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  main section.s01 .wrapper table tr:last-child {
+    border: none;
+  }
+  main section.s01 .wrapper table tr th {
+    width: calc(100% - 60px);
+    display: block;
+    float: left;
+    // vertical-align: top;
+    font-size: 16px;
+    padding: 15px 0 0;
+  }
+  main section.s01 .wrapper table tr td.td01 {
+    width: 60px;
+    display: block;
+    float: right;
+    padding: 10px 0 0;
+    // vertical-align: top;
+    text-align: right;
+  }
+  main section.s01 .wrapper table tr td.td01 span {
+    display: inline-block;
+    background-color: #8D2121;
+    width: 50px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+  }
+  main section.s01 .wrapper table tr td.td02 {
+    padding: 5px 0 5px;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  main section.s01 .wrapper table tr td.td02 input[type="text"] {
+    width: 100% !important;
+    padding: 10px 15px;
+    line-height: 20px;
+    display: block !important;
+    border: none !important;
+  }
+  main section.s01 .wrapper table tr td.td02 textarea {
+    width: 100% !important;
+    height: 160px !important;
+    padding: 15px;
+    line-height: 25px;
+    font-size: 16px;
+    display: block !important;
+    border: none !important;
+  }
+  main section.s01 .wrapper .t02 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  main section.s01 .wrapper .policy {
+    background-color: #F9F6EE;
+    max-width: 750px;
+    width: calc(100% - 40px);
+    height: 194px;
+    overflow-y: scroll;
+    margin: 20px auto 0;
+    padding: 20px 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  main section.s01 .wrapper .btn_submit {
+    width: 250px;
+    height: 44px;
+    display: block;
+    border: none !important;
+    border-radius: 40px;
+    margin: 30px auto 0;
+    background-color: #24388E;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    -webkit-appearance: none;
+  }
+  footer .wrapper .topcontents {
+    display: none;
+  }
+}
+
+.sylogo {
+  width: 77px;
+  margin: 0 auto;
+  @media screen and (max-width: 880px) {
+    width: 43px;
+  }
+}
+main section.s01 {
+  background-image: url(/images/ci0126.png);
+  div.wrapper {
+    .flow{
+      margin: 30px auto 0;
+      max-width: 500px;
+      li{
+        opacity: 0.3;
+        span{
+          color: #fff;
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          background-color: #42210b;
+          border-radius: 50%;
+        }
+        div{
+          color: #333;
+          font-size: 17px;
+          margin-top: 16px;
+          @media screen and (max-width: $tablet) {
+            margin-top: 8px;
+          }
+        }
+        &.active{
+          opacity: 1;
+        }
+        &, &.active{
+          background-color: transparent;
+        }
+        &::before{
+          display: none;
+        }
+      }
+
+    }
+    form{
+      .f01{
+        margin: 30px auto 0;
+        max-width: 800px;
+        padding: 0 20px;
+        .inline-radio{
+          display: flex;
+          overflow: hidden;
+          border: 1px solid #42210b;
+          margin-bottom: 40px;
+          font-size: 21px;
+          @media screen and (max-width: 880px) {
+            font-size: 16px;
+          }
+          div {
+            position: relative;
+            flex: 1;
+          }
+          input {
+            cursor: pointer;
+            width: 100%;
+            height: 60px;
+            opacity: 0;
+          }
+          label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #42210b;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+            border-right: 1px solid #42210b;
+          }
+          div:last-child label {
+            border-right: 0;
+          }
+          input:checked + label {
+            background: #42210b;
+            color: #fff;
+          }
+        }
+        .tr01{
+          margin-top: 30px;
+        }
+        .th01{
+          margin-bottom: 12px;
+          line-height: 26px;
+          font-weight: bold;
+          span{
+            padding: 1px 8px;
+            margin-left: 16px;
+            background-color: #9e272d;
+            color: #fff;
+          }
+          span.optional {
+            background-color: #aaa;
+          }
+        }
+        .td02{
+          input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            line-height: 25px;
+            display: block;
+            border: none;
+          }
+          select {
+            cursor: pointer;
+            -webkit-appearance: none;
+            appearance: none;
+          }
+          textarea {
+            height: 310px;
+          }
+          .m-checkbox-1 {
+            display: flex;
+            align-items: flex-start;
+
+            input {
+              width: 18px;
+              min-width: 18px;
+              height: 18px;
+              margin: 0 4px;
+              margin-top: 3.1px;
+              margin-right: 4px;
+            }
+
+            input, label {
+              cursor: pointer;
+            }
+
+            &.agreement {
+              justify-content: center;
+            }
+          }
+        }
+        .td-wrapper {
+          display: flex;
+          .td02 {
+            width: 200px;
+            margin: 0 10px;
+
+            &:first-of-type {
+              margin-left: 0;
+            }
+            &:last-of-type {
+              margin-right: 0;
+            }
+          }
+        }
+        .submit.m-btn-6 {
+          @media screen and (max-width: 600px) {
+            margin: 30px auto 0;
+            width: 100%;
+          }
+        }
+        .btn_submit{
+          width: 100%;
+          height: auto;
+          max-width: 350px;
+          background-color: transparent;
+          cursor: pointer;
+          @media screen and (max-width: 600px) {
+            height: 70px;
+            & svg {
+              height: 67px;
+              width: 100%;
+            }
+          }
+
+          &.confirm-page {
+            background-color: #005748;
+            padding: 8px 16px;
+            border-radius: 4px;
+          }
+        }
+
+        .crmr-helper {
+          margin: 3px 14px 0;
+        }
+      }
+    }
+    .policy{
+      background-color: #fff;
+      width: auto;
+      margin: 80px auto 0;
+      .t02{
+        margin-top: 0;
+        margin-bottom: 16px;
+      }
+    }
+
+  }
+}
+
+main.step2 section.s01 div.wrapper form .f01 {
+  padding: 0;
+  font-size: 14px;
+  @media screen and (max-width: 800px) {
+    margin: 30px 16px 0;
+  }
+  .tr01 {
+    display: flex;
+    margin-top: 0;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    > div {
+      flex-grow: 1;
+    }
+    .th01 {
+      width: 25%;
+      margin-bottom: 0;
+      border-right: 1px solid #999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #F2F2F2;
+      color: #005748;
+      padding: 15px 20px;
+      @media screen and (max-width: 800px) {
+        padding: 8px 14px;
+      }
+      span {
+        margin-left: 0;
+        margin-top: 3px;
+        font-size: 12px;
+      }
+    }
+    > .td02, > .td-wrapper {
+      width: 75%;
+      background-color: #fff;
+      padding: 15px;
+    }
+    > .td02 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .td-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .tr01:first-child {
+    border-top: 1px solid #999;
+  }
+}
+
+.crmr-conf-msg .heading {
+  font-weight: bold;
+}
+
+.crmr-error-msg.agreement {
+  text-align: center;
+}
+}

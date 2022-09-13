@@ -1,0 +1,481 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 .wrapper dl {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+main section.s01 .wrapper dl dt {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 470px;
+  height: 440px;
+  background-color: #F5F5F5;
+  text-align: right;
+  padding: 50px 50px 0 0;
+}
+
+main section.s01 .wrapper dl dt img {
+  width: 328px;
+  vertical-align: top;
+}
+
+main section.s01 .wrapper dl dd {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  width: calc(100% - 470px);
+  background-image: url(../../images/ci0101.jpg);
+  background-size: cover;
+  background-position: center left 0;
+}
+
+main section.s01 .wrapper dl dd img {
+  display: none;
+}
+
+main section.s02 {
+  padding: 30px 50px 110px;
+}
+
+main section.s02 .wrapper .bc {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+main section.s02 .wrapper .bc a,
+main section.s02 .wrapper .bc span {
+  color: #333333;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+main section.s02 .wrapper .caselist {
+  max-width: 1080px;
+  margin: 30px auto 0;
+}
+
+main section.s02 .wrapper .caselist li {
+  background-color: #FCFCFC;
+  border: 1px solid #CCCCCC;
+  padding: 25px;
+  position: relative;
+  margin-top: 25px;
+}
+
+main section.s02 .wrapper .caselist li dl {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+main section.s02 .wrapper .caselist li dl dt {
+  width: 31.5%;
+}
+
+main section.s02 .wrapper .caselist li dl dt img {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 .wrapper .caselist li dl dd {
+  width: 65%;
+}
+
+main section.s02 .wrapper .caselist li dl dd .cat {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 134px;
+  height: 49px;
+  line-height: 49px;
+  text-align: center;
+  font-size: 20px;
+}
+
+main section.s02 .wrapper .caselist li dl dd .cat.cat01 {
+  border: 1px solid #3B4186;
+  color: #3B4186;
+}
+
+main section.s02 .wrapper .caselist li dl dd .cat.cat02 {
+  border: 1px solid #4F8677;
+  color: #4F8677;
+}
+
+main section.s02 .wrapper .caselist li dl dd .cat.cat03 {
+  border: 1px solid #8F4C4C;
+  color: #8F4C4C;
+}
+
+main section.s02 .wrapper .caselist li dl dd .t01 {
+  font-size: 24px;
+  line-height: 150%;
+  padding-right: 155px;
+  font-weight: bold;
+}
+
+main section.s02 .wrapper .caselist li dl dd table {
+  width: calc(100% - 235px);
+  margin-top: 20px;
+}
+
+main section.s02 .wrapper .caselist li dl dd table tr th {
+  width: 140px;
+  padding: 3px 0;
+}
+
+main section.s02 .wrapper .caselist li dl dd table tr th span {
+  display: inline-block;
+  background-color: #F8F8F8;
+  width: 120px;
+  height: 36px;
+  border-radius: 20px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+}
+
+main section.s02 .wrapper .caselist li dl dd table tr td {
+  word-break: break-all;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main section.s02 .wrapper .caselist li dl dd .btn {
+  width: 218px;
+  display: block;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+main section.s02 .wrapper .caselist li dl dd .btn img {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 .wrapper .t04 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+main section.s02 .wrapper .t05 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 200%;
+  margin-top: 110px;
+  letter-spacing: 3px;
+}
+
+main section.s02 .wrapper .casebox {
+  max-width: 1050px;
+  margin: 35px auto 0;
+  border: 1px solid #AC870D;
+  position: relative;
+  padding: 80px 25px 35px 25px;
+  background-image: url(../../images/ci0110.png);
+  background-size: 47% 100%;
+  background-position: top 0 right 0;
+  background-repeat: no-repeat;
+}
+
+main section.s02 .wrapper .casebox .t06 {
+  width: 487px;
+  line-height: 40px;
+  padding: 13px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #AC870D;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+main section.s02 .wrapper .casebox ul {
+  font-size: 0;
+  letter-spacing: 0;
+  width: calc(100% - 280px);
+}
+
+main section.s02 .wrapper .casebox ul li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  background-color: #FAF7EF;
+  padding: 12px 20px;
+  margin: 15px 15px 0 0;
+}
+
+main section.s02 .wrapper .casebox .photo {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+main section.s03 {
+  background-image: url(../../images/bg_footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 50px;
+}
+
+main section.s03 .wrapper h3 {
+  text-align: center;
+  color: #3C0C0C;
+  font-size: 29px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 200%;
+}
+
+main section.s03 .wrapper .photo {
+  max-width: 100%;
+  display: block;
+  margin: 80px auto 0;
+}
+
+main section.s03 .wrapper .t01 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 .wrapper dl {
+    display: block;
+  }
+  main section.s01 .wrapper dl dt {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    background-color: #F5F5F5;
+    text-align: right;
+  }
+  main section.s01 .wrapper dl dt img {
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+  }
+  main section.s01 .wrapper dl dd {
+    width: 100%;
+    height: calc(100vw * 0.52);
+    background-image: url(../../images/ci0101.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  main section.s01 .wrapper dl dd img {
+    display: none;
+  }
+  main section.s02 {
+    padding: 20px 20px 60px;
+  }
+  main section.s02 .wrapper .bc {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  main section.s02 .wrapper .bc a,
+  main section.s02 .wrapper .bc span {
+    color: #333333;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  main section.s02 .wrapper .caselist {
+    max-width: 1080px;
+    margin: 20px auto 0;
+  }
+  main section.s02 .wrapper .caselist li {
+    background-color: #FCFCFC;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    position: relative;
+    margin-top: 20px;
+  }
+  main section.s02 .wrapper .caselist li dl {
+    display: block;
+  }
+  main section.s02 .wrapper .caselist li dl dt {
+    width: 100%;
+  }
+  main section.s02 .wrapper .caselist li dl dt img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper .caselist li dl dd {
+    width: 100%;
+  }
+  main section.s02 .wrapper .caselist li dl dd .cat {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  main section.s02 .wrapper .caselist li dl dd .cat.cat01 {
+    border: 1px solid #3B4186;
+    color: #3B4186;
+  }
+  main section.s02 .wrapper .caselist li dl dd .cat.cat02 {
+    border: 1px solid #4F8677;
+    color: #4F8677;
+  }
+  main section.s02 .wrapper .caselist li dl dd .cat.cat03 {
+    border: 1px solid #8F4C4C;
+    color: #8F4C4C;
+  }
+  main section.s02 .wrapper .caselist li dl dd .t01 {
+    font-size: 18px;
+    line-height: 150%;
+    padding-right: 0;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  main section.s02 .wrapper .caselist li dl dd table {
+    width: 100%;
+    margin-top: 10px;
+  }
+  main section.s02 .wrapper .caselist li dl dd table tr th {
+    width: 100px;
+    padding: 3px 0;
+  }
+  main section.s02 .wrapper .caselist li dl dd table tr th span {
+    display: inline-block;
+    background-color: #F8F8F8;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+  }
+  main section.s02 .wrapper .caselist li dl dd table tr td {
+    padding-left: 10px;
+    word-break: break-all;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  main section.s02 .wrapper .caselist li dl dd .btn {
+    width: 180px;
+    display: block;
+    margin: 10px auto 0;
+    position: static;
+  }
+  main section.s02 .wrapper .caselist li dl dd .btn img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper .t04 {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: left;
+  }
+  main section.s02 .wrapper .t05 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 200%;
+    margin-top: 30px;
+    letter-spacing: 2px;
+  }
+  main section.s02 .wrapper .casebox {
+    max-width: 1050px;
+    margin: 25px auto 0;
+    border: 1px solid #AC870D;
+    position: relative;
+    padding: 50px 15px 25px 15px;
+    background-image: none;
+  }
+  main section.s02 .wrapper .casebox .t06 {
+    width: 270px;
+    line-height: 30px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #AC870D;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  main section.s02 .wrapper .casebox ul {
+    font-size: 0;
+    letter-spacing: 0;
+    width: 100%;
+  }
+  main section.s02 .wrapper .casebox ul li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    background-color: #FAF7EF;
+    padding: 6px 10px;
+    margin: 5px 5px 0 0;
+  }
+  main section.s02 .wrapper .casebox .photo {
+    width: 170px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  main section.s03 {
+    background-image: url(../../images/bg_footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 20px;
+  }
+  main section.s03 .wrapper h3 {
+    text-align: center;
+    color: #3C0C0C;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 200%;
+  }
+  main section.s03 .wrapper .photo {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto 0;
+  }
+  main section.s03 .wrapper .t01 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+}

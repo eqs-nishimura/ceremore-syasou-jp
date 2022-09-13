@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.048" height="81.049" viewBox="0 0 81.048 81.049">
+  <defs>
+    <filter id="パス_4528" x="0" y="0" width="81.048" height="81.049" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_3109" data-name="グループ 3109" transform="translate(-129.094 -2299.414)">
+    <g transform="matrix(1, 0, 0, 1, 129.09, 2299.41)" filter="url(#パス_4528)">
+      <path id="パス_4528-2" data-name="パス 4528" d="M31.524,0A31.524,31.524,0,1,1,0,31.524,31.524,31.524,0,0,1,31.524,0Z" transform="translate(9 9)" fill="#c3a556"/>
+    </g>
+    <path id="パス_3761" data-name="パス 3761" d="M4,35.524a31.366,31.366,0,0,0,.47,5.429A31.484,31.484,0,0,0,20.55,45.34a31.651,31.651,0,0,0,31.2-36.85A31.531,31.531,0,0,0,4,35.524Z" transform="translate(134.094 2304.414)" fill="#d5b45e" opacity="0.497"/>
+    <path id="パス_4535" data-name="パス 4535" d="M8.359-26.289,2.031-5.527a11.984,11.984,0,0,0-.586,2.6.86.86,0,0,0,.381.752,2.237,2.237,0,0,0,1.006.342q.625.078,1.719.117L4.043,0H-7.637l.566-1.719H-5.8a4.2,4.2,0,0,0,1.367-.166,1.56,1.56,0,0,0,.781-.771A13.483,13.483,0,0,0-2.832-4.8L1.445-18.77q.391-1.328.391-1.309a5.436,5.436,0,0,0,.234-1.211,1.028,1.028,0,0,0-.84-1.074A7.3,7.3,0,0,0-.723-22.6H-2.207l.527-1.68q2.793-.254,4.2-.488a12.218,12.218,0,0,0,2.256-.557,10.5,10.5,0,0,0,1.865-.967Z" transform="translate(169.617 2352.399)" fill="#fff"/>
+  </g>
+</svg>

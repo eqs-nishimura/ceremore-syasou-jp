@@ -1,0 +1,636 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 .wrapper dl {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+main section.s01 .wrapper dl dt {
+  width: 600px;
+  height: 260px;
+  padding: 55px 0 0 70px;
+  background-color: #fff;
+}
+
+main section.s01 .wrapper dl dt h2 {
+  font-size: 45px;
+  line-height: 75px;
+  letter-spacing: 7px;
+}
+
+main section.s01 .wrapper dl dd {
+  width: calc(100% - 600px);
+  height: 260px;
+  background-image: url(../../images/pr0101.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+main section.s01 .wrapper dl dd img {
+  display: none;
+}
+
+main section.s02 {
+  background-image: url(../../images/bg_footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 50px 90px;
+}
+
+main section.s02 .wrapper h3 {
+  width: 87px;
+  margin: 0 auto;
+}
+
+main section.s02 .wrapper h3 img {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 .wrapper .t01 {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin-top: 80px;
+}
+
+main section.s02 .wrapper .list01 {
+  max-width: 1120px;
+  margin: 70px auto 0;
+}
+
+main section.s02 .wrapper .list01 li {
+  position: relative;
+}
+
+main section.s02 .wrapper .list01 li .photo {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 .wrapper .list01 li .txtbox {
+  width: 324px;
+  padding: 30px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+main section.s02 .wrapper .list01 li .txtbox .t05 {
+  font-size: 24px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+main section.s02 .wrapper .list01 li .txtbox .t05::before {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #333333;
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+main section.s02 .wrapper .list01 li .txtbox .t06 {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main section.s02 .wrapper .list01 li.li01 {
+  width: 44%;
+  float: left;
+}
+
+main section.s02 .wrapper .list01 li.li01 .txtbox {
+  bottom: -47px;
+}
+
+main section.s02 .wrapper .list01 li.li02 {
+  width: 56%;
+  float: right;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+main section.s02 .wrapper .list01 li.li02 .photo {
+  width: 65%;
+}
+
+main section.s02 .wrapper .list02 {
+  max-width: 1140px;
+  margin: 0 auto 0;
+  font-size: 0;
+  letter-spacing: 0;
+}
+
+main section.s02 .wrapper .list02.list03 {
+  max-width: 850px;
+  text-align: center;
+}
+
+main section.s02 .wrapper .list02.list03 li {
+  width: calc((100% - 60px) / 3);
+  text-align: left;
+}
+
+main section.s02 .wrapper .list02 li {
+  width: calc((100% - 80px) / 4);
+  display: inline-block;
+  margin: 30px 10px 0;
+  position: relative;
+  padding-bottom: 200px;
+  margin-top: 30px;
+}
+
+main section.s02 .wrapper .list02 li img {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 .wrapper .list02 li .txtbox {
+  height: 240px;
+  padding: 30px 20px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  left: 25px;
+  bottom: 0;
+}
+
+main section.s02 .wrapper .list02 li .txtbox .t05 {
+  font-size: 24px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+main section.s02 .wrapper .list02 li .txtbox .t05::before {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #333333;
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+main section.s02 .wrapper .list02 li .txtbox .t06 {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main section.s02 .wrapper .t02 {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 4px;
+  margin-top: 100px;
+}
+
+main section.s03 {
+  padding: 80px 50px 65px;
+}
+
+main section.s03 .wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+main section.s03 .wrapper dl {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main section.s03 .wrapper dl dt {
+  width: calc(100% - 190px);
+}
+
+main section.s03 .wrapper dl dt a {
+  width: 100%;
+  display: block;
+}
+
+main section.s03 .wrapper dl dt a img {
+  width: 100%;
+  display: block;
+}
+
+main section.s03 .wrapper dl dd {
+  width: 190px;
+  text-align: right;
+}
+
+main section.s03 .wrapper dl dd img {
+  width: 144px;
+}
+
+main section.s04 {
+  background-image: url(../../images/bg_footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 90px 50px 50px;
+}
+
+main section.s04 .wrapper h4 {
+  width: 110px;
+  margin: 0 auto;
+}
+
+main section.s04 .wrapper h4 img {
+  width: 100%;
+  display: block;
+}
+
+main section.s04 .wrapper .t01 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+main section.s04 .wrapper .photo01 {
+  max-width: 950px;
+  width: 100%;
+  display: block;
+  margin: 50px auto 0;
+}
+
+main section.s04 .wrapper .photo02 {
+  max-width: 1094px;
+  width: 100%;
+  display: block;
+  margin: 60px auto 0;
+}
+
+main section.s04 .wrapper .t02 {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin-top: 80px;
+}
+
+main section.s04 .wrapper .t03 {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+
+main section.s04 .wrapper .photo03 {
+  max-width: 1062px;
+  width: 100%;
+  display: block;
+  margin: 60px auto 0;
+}
+
+main section.s04 .wrapper .photo04 {
+  max-width: 1062px;
+  width: 100%;
+  display: block;
+  margin: 20px auto 0;
+}
+
+main section.s05 {
+  padding: 50px 50px 50px;
+}
+
+main section.s05 .wrapper img {
+  width: 100%;
+  max-width: 1209px;
+  display: block;
+  margin: 0 auto;
+}
+
+main section.s05 .wrapper .t01 {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+
+main section.s06 {
+  background-image: url(../../images/bg_footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 50px 40px;
+}
+
+main section.s06 .wrapper p {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 6px;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 .wrapper dl {
+    display: block;
+  }
+  main section.s01 .wrapper dl dt {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #fff;
+  }
+  main section.s01 .wrapper dl dt h2 {
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  main section.s01 .wrapper dl dd {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+  main section.s01 .wrapper dl dd img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 {
+    padding: 50px 20px 30px;
+  }
+  main section.s02 .wrapper h3 {
+    width: 61px;
+    margin: 0 auto;
+  }
+  main section.s02 .wrapper h3 img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper .t01 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+  }
+  main section.s02 .wrapper .list01 {
+    max-width: 1120px;
+    margin: 40px auto 0;
+  }
+  main section.s02 .wrapper .list01 li {
+    position: relative;
+  }
+  main section.s02 .wrapper .list01 li .photo {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper .list01 li .txtbox {
+    width: 250px;
+    padding: 15px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  main section.s02 .wrapper .list01 li .txtbox .t05 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  main section.s02 .wrapper .list01 li .txtbox .t05::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #333333;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+  main section.s02 .wrapper .list01 li .txtbox .t06 {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  main section.s02 .wrapper .list01 li.li01 {
+    width: 100%;
+  }
+  main section.s02 .wrapper .list01 li.li01 .txtbox {
+    bottom: -0;
+  }
+  main section.s02 .wrapper .list01 li.li02 {
+    width: 100%;
+    padding: 0;
+    margin: 15px auto 0;
+  }
+  main section.s02 .wrapper .list01 li.li02 .photo {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper .list02 {
+    max-width: 1140px;
+    margin: 0 auto 0;
+    font-size: 0;
+    letter-spacing: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  main section.s02 .wrapper .list02.list03 {
+    max-width: 850px;
+    text-align: center;
+  }
+  main section.s02 .wrapper .list02.list03 li {
+    width: calc((100% - 15px) / 2);
+    text-align: left;
+  }
+  main section.s02 .wrapper .list02 li {
+    width: calc((100% - 15px) / 2);
+    display: block;
+    margin: 20px 0 0;
+    position: relative;
+    padding-bottom: 0;
+    margin-top: 20px;
+  }
+  main section.s02 .wrapper .list02 li:nth-child(even) {
+    margin-left: 15px;
+  }
+  main section.s02 .wrapper .list02 li img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 .wrapper .list02 li .txtbox {
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 15px 15px;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 2;
+    margin-top: -50px;
+    margin-left: 20px;
+  }
+  main section.s02 .wrapper .list02 li .txtbox .t05 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  main section.s02 .wrapper .list02 li .txtbox .t05::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #333333;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+  main section.s02 .wrapper .list02 li .txtbox .t06 {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  main section.s02 .wrapper .t02 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+  }
+  main section.s03 {
+    padding: 30px 20px;
+  }
+  main section.s03 .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  main section.s03 .wrapper dl {
+    display: block;
+  }
+  main section.s03 .wrapper dl dt {
+    width: 100%;
+  }
+  main section.s03 .wrapper dl dt a {
+    width: 100%;
+    display: block;
+  }
+  main section.s03 .wrapper dl dt a img {
+    width: 100%;
+    display: block;
+  }
+  main section.s03 .wrapper dl dd {
+    width: 80px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  main section.s03 .wrapper dl dd img {
+    width: 100%;
+    display: block;
+  }
+  main section.s04 {
+    background-image: url(../../images/bg_footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 20px 20px;
+  }
+  main section.s04 .wrapper h4 {
+    width: 77px;
+    margin: 0 auto;
+  }
+  main section.s04 .wrapper h4 img {
+    width: 100%;
+    display: block;
+  }
+  main section.s04 .wrapper .t01 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  main section.s04 .wrapper .photo01 {
+    max-width: 950px;
+    display: block;
+    width: 100%;
+    margin: 30px auto 0;
+  }
+  main section.s04 .wrapper .photo02 {
+    max-width: 1094px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  main section.s04 .wrapper .t02 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+  }
+  main section.s04 .wrapper .t03 {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+  }
+  main section.s04 .wrapper .photo03 {
+    max-width: 1062px;
+    display: block;
+    margin: 30px auto 0;
+  }
+  main section.s04 .wrapper .photo04 {
+    max-width: 1062px;
+    display: block;
+    margin: 15px auto 0;
+  }
+  main section.s05 {
+    padding: 20px;
+  }
+  main section.s05 .wrapper img {
+    max-width: 1209px;
+    display: block;
+    margin: 0 auto;
+  }
+  main section.s05 .wrapper .t01 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  main section.s06 {
+    background-image: url(../../images/bg_footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 20px 20px;
+  }
+  main section.s06 .wrapper p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}

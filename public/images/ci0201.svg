@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218.644" height="56.284" viewBox="0 0 218.644 56.284">
+  <g id="グループ_3114" data-name="グループ 3114" transform="translate(-946.947 -924.186)">
+    <g id="グループ_1608" data-name="グループ 1608" transform="translate(946.947 924.186)">
+      <rect id="長方形_2386" data-name="長方形 2386" width="214.755" height="51.84" transform="translate(3.889 4.444)" fill="#9d6315"/>
+      <path id="長方形_2388" data-name="長方形 2388" d="M1,1V50.84H213.755V1H1M0,0H214.755V51.84H0Z" transform="translate(0 0)" fill="#9d6315"/>
+      <path id="長方形_2390" data-name="長方形 2390" d="M1,1V46.4H209.867V1H1M0,0H210.867V47.4H0Z" transform="translate(3.889 4.444)" fill="#fff"/>
+      <text id="詳しく見る" transform="translate(89.879 34.031)" fill="#fff" font-size="10" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700" letter-spacing="0.15em"><tspan x="0" y="0">詳しく見る</tspan></text>
+      <path id="多角形_29" data-name="多角形 29" d="M3.889,0,7.777,7.777H0Z" transform="translate(76.152 26.475) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,576 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 .wrapper h2 img {
+  width: 100%;
+  display: block;
+}
+
+main section.s02 {
+  background-image: url(../../../images/bg_footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 40px 50px 70px;
+}
+
+main section.s02 .wrapper .bc {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+main section.s02 .wrapper .bc a,
+main section.s02 .wrapper .bc span {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333333;
+}
+
+main section.s02 .wrapper .detailbox {
+  max-width: 1020px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 80px 50px 80px;
+  margin: 20px auto 0;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.02);
+}
+
+main section.s02 .wrapper .detailbox h3 {
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+main section.s02 .wrapper .detailbox h3::before {
+  content: "";
+  display: block;
+  width: 114px;
+  height: 3px;
+  background-color: #B29000;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+main section.s02 .wrapper .detailbox .catlist {
+  font-size: 0;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+main section.s02 .wrapper .detailbox .catlist li {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #E8E8E8;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 8px;
+}
+
+main section.s02 .wrapper .detailbox table {
+  width: 570px;
+  margin: 40px auto 0;
+}
+
+main section.s02 .wrapper .detailbox table tr th {
+  width: 200px;
+  padding: 20px 0;
+}
+
+main section.s02 .wrapper .detailbox table tr th span {
+  width: 130px;
+  height: 37px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #F7F1E2;
+  border-radius: 19px;
+  text-align: center;
+  line-height: 37px;
+  color: #6A4203;
+  letter-spacing: 3px;
+}
+
+main section.s02 .wrapper .detailbox table tr td {
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 26px;
+  vertical-align: middle;
+}
+
+main section.s02 .wrapper .detailbox table tr td.tac {
+  text-align: center;
+}
+
+main section.s02 .wrapper .detailbox .t01 {
+  font-size: 16px;
+  line-height: 200%;
+  border: 1px solid #CCCCCC;
+  padding: 20px 30px;
+  width: 520px;
+  margin: 40px auto 0;
+}
+
+main section.s02 .wrapper .detailbox .t02 {
+  width: 520px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000;
+  line-height: 16px;
+  padding: 16px 0;
+  margin: 40px auto 0;
+}
+
+main section.s02 .wrapper .detailbox .pointlist {
+  width: 520px;
+  margin: 55px auto 0;
+}
+
+main section.s02 .wrapper .detailbox .pointlist li {
+  margin-top: 45px;
+  background-image: url(../../../images/pd0201.svg);
+  background-size: 36px auto;
+  background-repeat: no-repeat;
+  background-position: top 5px left 0;
+  padding-left: 50px;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+main section.s03 {
+  padding-bottom: 100px;
+}
+
+main section.s03 .wrapper .sliderbox {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main section.s03 .wrapper .sliderbox .slider {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+main section.s03 .wrapper .sliderbox .slider img {
+  width: 100%;
+  display: block;
+}
+
+main section.s03 .wrapper .sliderbox .slick-dots {
+  bottom: -10px;
+}
+
+main section.s03 .wrapper .sliderbox .slick-dots li {
+  margin: 0;
+}
+
+main section.s03 .wrapper .sliderbox .slick-prev {
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 20px;
+  background-image: url(../../../images/icon_prev03.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+main section.s03 .wrapper .sliderbox .slick-prev::before {
+  display: none !important;
+}
+
+main section.s03 .wrapper .sliderbox .slick-next {
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  right: 20px;
+  background-image: url(../../../images/icon_next03.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+main section.s03 .wrapper .sliderbox .slick-next::before {
+  display: none !important;
+}
+
+main section.s03 .wrapper h4 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 70px;
+  color: #462900;
+}
+
+main section.s03 .wrapper dl {
+  margin: 60px auto 0;
+  max-width: 1280px;
+  position: relative;
+}
+
+main section.s03 .wrapper dl dt {
+  width: calc(50% + 40px);
+  height: 392px;
+  background-image: url(../../../images/pd0302.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+main section.s03 .wrapper dl dt img {
+  display: block;
+}
+
+main section.s03 .wrapper dl dd {
+  width: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  padding: 40px 50px;
+}
+
+main section.s03 .wrapper dl dd .t01 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2px;
+}
+
+main section.s03 .wrapper dl dd table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+main section.s03 .wrapper dl dd table tr:last-child td::after,
+main section.s03 .wrapper dl dd table tr:last-child th::after {
+  display: none;
+}
+
+main section.s03 .wrapper dl dd table tr th {
+  width: 115px;
+  padding: 15px 0;
+  font-size: 17px;
+  color: #B29000;
+  position: relative;
+  border-right: 1px solid #3B4186;
+}
+
+main section.s03 .wrapper dl dd table tr th::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #AAA;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 15px;
+}
+
+main section.s03 .wrapper dl dd table tr td {
+  position: relative;
+}
+
+main section.s03 .wrapper dl dd table tr td::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #AAA;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 15px;
+}
+
+main section.s03 .wrapper dl dd table tr td.td01 {
+  text-align: center;
+}
+
+main section.s03 .wrapper dl dd table tr td.td01 span {
+  display: inline-block;
+  background-color: #3B4186;
+  width: 118px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+  font-size: 13px;
+}
+
+main section.s03 .wrapper dl dd table tr td.td02 {
+  text-align: center;
+  font-size: 17px;
+}
+
+main section.s03 .wrapper dl dd table tr td.td03 {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 .wrapper h2 img {
+    width: 100%;
+    display: block;
+  }
+  main section.s02 {
+    background-image: url(../../../images/bg_footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 20px 40px;
+  }
+  main section.s02 .wrapper .bc {
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+  main section.s02 .wrapper .bc a,
+  main section.s02 .wrapper .bc span {
+    text-decoration: none;
+    font-size: 10px;
+    color: #333333;
+  }
+  main section.s02 .wrapper .detailbox {
+    max-width: 1020px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 50px 15px 40px;
+    margin: 20px auto 0;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.02);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.02);
+  }
+  main section.s02 .wrapper .detailbox h3 {
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  main section.s02 .wrapper .detailbox h3::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #B29000;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  main section.s02 .wrapper .detailbox .catlist {
+    font-size: 0;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  main section.s02 .wrapper .detailbox .catlist li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #E8E8E8;
+    padding: 3px 8px;
+    font-size: 14px;
+    margin: 4px;
+  }
+  main section.s02 .wrapper .detailbox table {
+    width: 100%;
+    max-width: 570px;
+    margin: 25px auto 0;
+  }
+  main section.s02 .wrapper .detailbox table tr th {
+    width: 100px;
+    padding: 7px 0;
+  }
+  main section.s02 .wrapper .detailbox table tr th span {
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #F7F1E2;
+    border-radius: 19px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #6A4203;
+    letter-spacing: 1px;
+  }
+  main section.s02 .wrapper .detailbox table tr td {
+    padding: 7px 0 7px 10px;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+  }
+  main section.s02 .wrapper .detailbox .t01 {
+    font-size: 14px;
+    line-height: 200%;
+    border: 1px solid #CCCCCC;
+    padding: 15px 20px;
+    width: 520px;
+    max-width: 100%;
+    margin: 25px auto 0;
+  }
+  main section.s02 .wrapper .detailbox .t02 {
+    width: 520px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    line-height: 16px;
+    padding: 10px 0;
+    margin: 25px auto 0;
+  }
+  main section.s02 .wrapper .detailbox .pointlist {
+    width: 520px;
+    max-width: 100%;
+    margin: 25px auto 0;
+  }
+  main section.s02 .wrapper .detailbox .pointlist li {
+    margin-top: 25px;
+    background-image: url(../../../images/pd0201.svg);
+    background-size: 26px auto;
+    background-repeat: no-repeat;
+    background-position: top 5px left 0;
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 200%;
+  }
+  main section.s03 {
+    padding-bottom: 80px;
+  }
+  main section.s03 .wrapper .sliderbox {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main section.s03 .wrapper .sliderbox .slider {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  main section.s03 .wrapper .sliderbox .slider img {
+    width: 100%;
+    display: block;
+  }
+  main section.s03 .wrapper .sliderbox .slick-prev {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 0;
+    background-image: url(../../../images/icon_prev03.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  main section.s03 .wrapper .sliderbox .slick-prev::before {
+    display: none !important;
+  }
+  main section.s03 .wrapper .sliderbox .slick-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    right: 0;
+    background-image: url(../../../images/icon_next03.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  main section.s03 .wrapper .sliderbox .slick-next::before {
+    display: none !important;
+  }
+  main section.s03 .wrapper h4 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    color: #462900;
+  }
+  main section.s03 .wrapper dl {
+    margin: 30px auto 0;
+    max-width: 1280px;
+    position: relative;
+  }
+  main section.s03 .wrapper dl dt {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+  main section.s03 .wrapper dl dt img {
+    width: 100%;
+    display: block;
+  }
+  main section.s03 .wrapper dl dd {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    position: static;
+    padding: 20px 20px;
+    margin: -90px auto 0;
+    background-color: #fff;
+    position: relative;
+  }
+  main section.s03 .wrapper dl dd .t01 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+  }
+  main section.s03 .wrapper dl dd table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  main section.s03 .wrapper dl dd table tr:last-child td::after,
+  main section.s03 .wrapper dl dd table tr:last-child th::after {
+    display: none;
+  }
+  main section.s03 .wrapper dl dd table tr th {
+    width: 85px;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #B29000;
+    position: relative;
+    border-right: 1px solid #3B4186;
+  }
+  main section.s03 .wrapper dl dd table tr th::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #AAA;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 15px;
+  }
+  main section.s03 .wrapper dl dd table tr td {
+    position: relative;
+  }
+  main section.s03 .wrapper dl dd table tr td::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #AAA;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+  }
+  main section.s03 .wrapper dl dd table tr td.td01 {
+    text-align: center;
+  }
+  main section.s03 .wrapper dl dd table tr td.td01 span {
+    display: inline-block;
+    background-color: #3B4186;
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    font-size: 13px;
+  }
+  main section.s03 .wrapper dl dd table tr td.td02 {
+    text-align: center;
+    font-size: 15px;
+  }
+  main section.s03 .wrapper dl dd table tr td.td03 {
+    text-align: center;
+    font-size: 15px;
+  }
+}

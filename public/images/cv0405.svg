@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 258.18 239.87">
+	<defs>
+		<style>.h{fill:none;}.i{isolation:isolate;opacity:1;stroke:#002368;stroke-miterlimit:10;stroke-width:5.67px;}.i,.j{fill:#fff;}.k{fill:#002368;}.l{fill:#150301;}.m{clip-path:url(#e);}.n{clip-path:url(#g);}</style>
+		<clipPath id="e">
+			<rect id="f" class="h" x="2.83" y="2.83" width="252.51" height="234.2" rx="7.63" ry="7.63" />
+		</clipPath>
+		<clipPath id="g">
+			<circle class="k" cx="129.09" cy="74.31" r="53.56" />
+		</clipPath>
+	</defs>
+	<g id="a" />
+	<g id="b">
+		<g id="c">
+			<rect id="d" class="i" x="2.83" y="2.83" width="252.51" height="234.2" rx="7.63" ry="7.63" />
+			<g class="m">
+				<g>
+					<g>
+						<circle class="k" cx="129.09" cy="74.31" r="53.56" />
+						<g class="n">
+							<g>
+								<g>
+									<rect class="j" x="94.75" y="67.89" width="68.67" height="45.75" />
+									<g>
+										<path class="l" d="M103.83,105.63h-2.93v-3.67h2.93v3.67Zm0-6.6h-2.93v-3.66h2.93v3.66Zm0-6.6h-2.93v-3.66h2.93v3.66Zm0-6.6h-2.93v-3.67h2.93v3.67Zm0-6.6h-2.93v-3.67h2.93v3.67Z" />
+										<path class="l" d="M157.48,105.63h-2.93v-3.67h2.93v3.67Zm0-6.6h-2.93v-3.66h2.93v3.66Zm0-6.6h-2.93v-3.66h2.93v3.66Zm0-6.6h-2.93v-3.67h2.93v3.67Zm0-6.6h-2.93v-3.67h2.93v3.67Z" />
+									</g>
+									<g>
+										<rect class="l" x="111.76" y="102.17" width="34.65" height="2.93" />
+										<rect class="l" x="111.76" y="89.3" width="34.65" height="2.93" />
+										<rect class="l" x="111.76" y="76.43" width="34.65" height="2.93" />
+									</g>
+								</g>
+								<g>
+									<rect class="j" x="160.01" y="67.07" width="28.33" height="2.72" transform="translate(-10.72 97.32) rotate(-30.33)" />
+									<rect class="j" x="160.01" y="97.64" width="28.33" height="2.72" transform="translate(-26.15 101.5) rotate(-30.33)" />
+									<rect class="j" x="82.64" y="54.26" width="2.72" height="28.33" transform="translate(-17.48 106.38) rotate(-59.67)" />
+									<rect class="j" x="82.64" y="84.83" width="2.72" height="28.33" transform="translate(-43.86 121.52) rotate(-59.67)" />
+								</g>
+							</g>
+						</g>
+					</g>
+					<path class="k" d="M209.86,144.84c-.53-3.51-3.27-6.33-6.67-6.35H55c-3.73,.19-6.14,2.84-6.67,6.35l-23.73,115.91h29.27l23.4-63.33v15.84c-.14,.94-.19,1.9-.15,2.9l.06,44.6h103.58v-3.82h.02v-59.88l23.54,63.69h29.27l-23.73-115.91Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

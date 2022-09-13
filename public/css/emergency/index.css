@@ -1,0 +1,384 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 .wrapper .box01 {
+  height: 400px;
+  background-image: url(../../images/oi0103.jpg);
+  background-size: 100% 100%;
+  padding: 5px 0 0 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+main section.s01 .wrapper .box01 h2 {
+  width: 710px;
+  max-width: calc(100% + 10px);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+main section.s01 .wrapper .box01 h2 a {
+  display: block;
+  pointer-events: none;
+}
+
+main section.s01 .wrapper .box01 h2 a img {
+  width: 100%;
+  display: block;
+}
+
+main section.s01 .wrapper .box01 .photo {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+main section.s01 .wrapper .box02 {
+  height: auto;
+  background-color: #F3F3F3;
+  padding: 1px 50px;
+  position: relative;
+  background-image: url(../../images/em0104.png);
+  background-size: auto 100%;
+  background-position: bottom 0 left 0;
+  background-repeat: no-repeat;
+}
+
+main section.s01 .wrapper .box02 .imgbox {
+  max-width: 1100px;
+  margin: -10px auto;
+  padding-left: 10%;
+}
+
+main section.s01 .wrapper .box02 .imgbox img {
+  width: 100%;
+  display: block;
+  max-width: 980px;
+}
+
+main section.s02 {
+  margin-top: 100px;
+  padding: 20px 50px 90px;
+}
+
+main section.s02 .wrapper {
+  max-width: 1050px;
+  border: 2px solid #AC870D;
+  margin: -70px auto 0;
+  padding: 15px;
+}
+
+main section.s02 .wrapper .box {
+  border: 2px solid #AC870D;
+  padding: 50px 320px 50px 30px;
+  position: relative;
+}
+
+main section.s02 .wrapper .box p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 46px;
+  letter-spacing: 3px;
+}
+
+main section.s02 .wrapper .box img {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -17px;
+}
+
+main section.s03 {
+  background-color: #FAF6EA;
+  padding: 100px 30px 120px;
+  overflow: hidden;
+}
+
+main section.s03 .wrapper h3 {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+main section.s03 .wrapper .btn_tel {
+  width: 1222px;
+  max-width: 100%;
+  display: block;
+  margin: 40px auto 0;
+  pointer-events: none;
+}
+
+main section.s03 .wrapper .btn_tel img {
+  width: 100%;
+  display: block;
+}
+
+main section.s03 .wrapper h4 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 160px;
+  letter-spacing: 8px;
+}
+
+main section.s03 .wrapper h4 img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 22px 30px 0;
+}
+
+main section.s03 .wrapper ul {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+main section.s03 .wrapper ul li {
+  max-width: 1020px;
+  margin: 100px auto 0;
+  background-color: #fff;
+  position: relative;
+  padding: 30px 40% 50px 50px;
+  min-height: 420px;
+}
+
+main section.s03 .wrapper ul li .t01 {
+  font-size: 33px;
+  font-weight: bold;
+  color: #4A2500;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-left: 90px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+main section.s03 .wrapper ul li .t01 img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main section.s03 .wrapper ul li .photo {
+  width: calc(35% + 80px);
+  position: absolute;
+  top: 60px;
+  right: -80px;
+}
+
+main section.s03 .wrapper ul li .photo img {
+  width: 100%;
+  display: block;
+}
+
+main section.s03 .wrapper ul li .t02 {
+  font-size: 21px;
+  line-height: 49px;
+  margin-top: 40px;
+}
+
+main section.s03 .wrapper ul li .t02 a {
+  display: inline-block;
+  text-decoration: none;
+  color: #890000;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 3px;
+  padding: 0 10px;
+}
+
+main section.s03 .wrapper ul li .arrow {
+  width: 40px;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -66px;
+  left: 0;
+  margin: 0 auto;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 .wrapper .box01 {
+    height: auto;
+    background-image: url(../../images/oi0103.jpg);
+    padding: 10px 0 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  main section.s01 .wrapper .box01 h2 {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  main section.s01 .wrapper .box01 h2 a {
+    display: block;
+    pointer-events: all;
+    padding-left: 8%;
+  }
+  main section.s01 .wrapper .box01 h2 a img {
+    width: 100%;
+    display: block;
+  }
+  main section.s01 .wrapper .box01 .photo {
+    width: auto;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  main section.s01 .wrapper .box02 {
+    height: auto;
+    background-color: #F3F3F3;
+    padding: 1px 20px;
+    position: relative;
+    background-image: url(../../images/em0104.png);
+    background-size: auto 100%;
+    background-position: bottom 0 left 0;
+    background-repeat: no-repeat;
+  }
+  main section.s01 .wrapper .box02 .imgbox {
+    max-width: 1100px;
+    margin: -10px auto;
+    padding-left: 0;
+  }
+  main section.s01 .wrapper .box02 .imgbox img {
+    width: 100%;
+    display: block;
+    max-width: 980px;
+  }
+  main section.s02 {
+    margin-top: 40px;
+    padding: 0 20px 40px;
+  }
+  main section.s02 .wrapper {
+    max-width: 1050px;
+    border: 1px solid #AC870D;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  main section.s02 .wrapper .box {
+    border: 1px solid #AC870D;
+    padding: 20px 20px 100px 20px;
+    position: relative;
+  }
+  main section.s02 .wrapper .box p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 3px;
+  }
+  main section.s02 .wrapper .box img {
+    width: 100px;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -11px;
+    margin: 0 auto;
+  }
+  main section.s03 {
+    background-color: #FAF6EA;
+    padding: 40px 20px 50px;
+    overflow: hidden;
+  }
+  main section.s03 .wrapper h3 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  main section.s03 .wrapper .btn_tel {
+    width: 1222px;
+    max-width: 100%;
+    display: block;
+    margin: 25px auto 0;
+    pointer-events: all;
+  }
+  main section.s03 .wrapper .btn_tel img {
+    width: 100%;
+    display: block;
+  }
+  main section.s03 .wrapper h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    letter-spacing: 3px;
+  }
+  main section.s03 .wrapper h4 img {
+    width: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 12px 15px 0;
+  }
+  main section.s03 .wrapper ul {
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+  main section.s03 .wrapper ul li {
+    max-width: 1020px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    min-height: 0;
+  }
+  main section.s03 .wrapper ul li .t01 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4A2500;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 40px;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  main section.s03 .wrapper ul li .t01 img {
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  main section.s03 .wrapper ul li .photo {
+    position: static;
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  main section.s03 .wrapper ul li .photo img {
+    width: 100%;
+    display: block;
+  }
+  main section.s03 .wrapper ul li .t02 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+  main section.s03 .wrapper ul li .t02 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #890000;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 0 5px;
+  }
+  main section.s03 .wrapper ul li .arrow {
+    width: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -33px;
+    left: 0;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,340 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 {
+  background-color: #F2EAD8;
+  padding-bottom: 90px;
+}
+
+main section.s01 .wrapper {
+  padding-top: 30px;
+}
+
+main section.s01 .wrapper h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+main section.s01 .wrapper .t01 {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+main section.s01 .wrapper .flow {
+  max-width: 950px;
+  margin: 80px auto 0;
+  width: calc(100% - 100px);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+main section.s01 .wrapper .flow li {
+  width: calc((100% - 80px) / 3);
+  background-color: #fff;
+  border-radius: 40px;
+  color: #24388E;
+  text-align: center;
+  font-size: 21px;
+  line-height: 30px;
+  padding: 15px 0;
+  position: relative;
+}
+
+main section.s01 .wrapper .flow li::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  display: block;
+  background-color: #24388E;
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  margin-top: -1.5px;
+}
+
+main section.s01 .wrapper .flow li:last-child::before {
+  display: none;
+}
+
+main section.s01 .wrapper .flow li.active {
+  color: #fff;
+  background-color: #24388E;
+}
+
+main section.s01 .wrapper table {
+  width: 1080px;
+  margin: 60px auto 0;
+  max-width: calc(100% - 100px);
+}
+
+main section.s01 .wrapper table tr {
+  border-bottom: 1px solid #aaa;
+}
+
+main section.s01 .wrapper table tr:last-child {
+  border: none;
+}
+
+main section.s01 .wrapper table tr th {
+  width: 23%;
+  padding: 26px 0 26px 45px;
+  vertical-align: top;
+  font-size: 21px;
+}
+
+main section.s01 .wrapper table tr td.td01 {
+  width: 11.5%;
+  padding: 26px 0;
+  vertical-align: top;
+}
+
+main section.s01 .wrapper table tr td.td01 span {
+  display: inline-block;
+  background-color: #8D2121;
+  width: 68px;
+  height: 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+main section.s01 .wrapper table tr td.td02 {
+  padding: 15px 45px 15px 0;
+}
+
+main section.s01 .wrapper table tr td.td02 input[type="text"] {
+  width: 100% !important;
+  padding: 15px;
+  line-height: 25px;
+  display: block !important;
+  border: none !important;
+}
+
+main section.s01 .wrapper table tr td.td02 textarea {
+  width: 100% !important;
+  height: 310px !important;
+  padding: 15px;
+  line-height: 25px;
+  display: block !important;
+  border: none !important;
+}
+
+main section.s01 .wrapper .t02 {
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 4px;
+  margin-top: 90px;
+  font-weight: bold;
+}
+
+main section.s01 .wrapper .policy {
+  background-color: #F9F6EE;
+  max-width: 750px;
+  height: 194px;
+  overflow-y: scroll;
+  margin: 35px auto 0;
+  padding: 30px 40px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+main section.s01 .wrapper .btn_submit {
+  width: 450px;
+  height: 80px;
+  display: block;
+  border: none !important;
+  border-radius: 40px;
+  margin: 60px auto 0;
+  background-color: #24388E;
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+
+footer .wrapper .topcontents {
+  display: none;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 {
+    background-color: #F2EAD8;
+    padding-bottom: 50px;
+  }
+  main section.s01 .wrapper {
+    padding-top: 20px;
+  }
+  main section.s01 .wrapper h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  main section.s01 .wrapper .t01 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5px;
+  }
+  main section.s01 .wrapper .flow {
+    max-width: 950px;
+    margin: 40px auto 0;
+    width: 100%;
+    padding: 0 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  main section.s01 .wrapper .flow li {
+    width: calc((100% - 40px) / 3);
+    background-color: #fff;
+    border-radius: 40px;
+    color: #24388E;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+    position: relative;
+  }
+  main section.s01 .wrapper .flow li::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: #24388E;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    margin-top: -1px;
+  }
+  main section.s01 .wrapper .flow li:last-child::before {
+    display: none;
+  }
+  main section.s01 .wrapper .flow li.active {
+    color: #fff;
+    background-color: #24388E;
+  }
+  main section.s01 .wrapper table {
+    width: calc(100% - 40px);
+    max-width: 100%;
+    margin: 30px auto 0;
+  }
+  main section.s01 .wrapper table tr {
+    display: block;
+    border: none;
+  }
+  main section.s01 .wrapper table tr::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  main section.s01 .wrapper table tr:last-child {
+    border: none;
+  }
+  main section.s01 .wrapper table tr th {
+    width: calc(100% - 60px);
+    display: block;
+    float: left;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 15px 0 0;
+  }
+  main section.s01 .wrapper table tr td.td01 {
+    width: 60px;
+    display: block;
+    float: right;
+    padding: 10px 0 0;
+    vertical-align: top;
+    text-align: right;
+  }
+  main section.s01 .wrapper table tr td.td01 span {
+    display: inline-block;
+    background-color: #8D2121;
+    width: 50px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+  }
+  main section.s01 .wrapper table tr td.td02 {
+    padding: 5px 0 5px;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  main section.s01 .wrapper table tr td.td02 input[type="text"] {
+    width: 100% !important;
+    padding: 10px 15px;
+    line-height: 20px;
+    display: block !important;
+    border: none !important;
+  }
+  main section.s01 .wrapper table tr td.td02 textarea {
+    width: 100% !important;
+    height: 160px !important;
+    padding: 15px;
+    line-height: 25px;
+    font-size: 16px;
+    display: block !important;
+    border: none !important;
+  }
+  main section.s01 .wrapper .t02 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  main section.s01 .wrapper .policy {
+    background-color: #F9F6EE;
+    max-width: 750px;
+    width: calc(100% - 40px);
+    height: 194px;
+    overflow-y: scroll;
+    margin: 20px auto 0;
+    padding: 20px 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  main section.s01 .wrapper .btn_submit {
+    width: 250px;
+    height: 44px;
+    display: block;
+    border: none !important;
+    border-radius: 40px;
+    margin: 30px auto 0;
+    background-color: #24388E;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    -webkit-appearance: none;
+  }
+  footer .wrapper .topcontents {
+    display: none;
+  }
+}

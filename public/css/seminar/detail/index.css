@@ -1,0 +1,418 @@
+/* ------------------------------
+ width: all
+------------------------------ */
+main section.s01 {
+  background-image: url(../../../images/bg_footer.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 50px 60px;
+}
+
+main section.s01 .wrapper {
+  border: 1px solid #E9E9E9;
+  max-width: 850px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 70px 100px;
+  border-radius: 10px;
+}
+
+main section.s01 .wrapper h2 {
+  font-size: 28px;
+  line-height: 170%;
+  letter-spacing: 4px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+main section.s01 .wrapper .dl01 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  padding: 0 20px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main section.s01 .wrapper .dl01 dt {
+  width: calc(100% - 220px);
+}
+
+main section.s01 .wrapper .dl01 dt table {
+  width: 100%;
+}
+
+main section.s01 .wrapper .dl01 dt table tr th {
+  width: 87px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+main section.s01 .wrapper .dl01 dt table tr th span {
+  display: inline-block;
+  vertical-align: top;
+  width: 87px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  background-color: #4F860F;
+}
+
+main section.s01 .wrapper .dl01 dt table tr td {
+  padding: 8px 0 8px 20px;
+}
+
+main section.s01 .wrapper .dl01 dt table tr td .t01 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+main section.s01 .wrapper .dl01 dt table tr td .t01 span {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+main section.s01 .wrapper .dl01 dt table tr td .t02 {
+  word-break: break-all;
+  font-size: 14px;
+}
+
+main section.s01 .wrapper .dl01 dd {
+  width: 200px;
+  padding-left: 10px;
+}
+
+main section.s01 .wrapper .dl01 dd a {
+  display: block;
+  width: 100%;
+  background-color: #830000;
+  border-radius: 3px;
+  text-decoration: none;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+main section.s01 .wrapper .photo {
+  max-width: 100%;
+  display: block;
+  margin: 40px auto;
+}
+
+main section.s01 .wrapper .dl02 {
+  margin-top: 50px;
+}
+
+main section.s01 .wrapper .dl02 dt {
+  border-bottom: 3px solid #F09693;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 0 7px 5px;
+}
+
+main section.s01 .wrapper .dl02 dt::after {
+  content: "";
+  display: block;
+  width: 180px;
+  height: 3px;
+  background-color: #505050;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+main section.s01 .wrapper .dl02 dd {
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 15px;
+  padding: 0 5px;
+}
+
+main section.s01 .wrapper .t03 {
+  background-color: #16384A;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 7px 25px;
+  position: relative;
+  margin: 60px auto;
+}
+
+main section.s01 .wrapper .t03::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background-color: #16384A;
+}
+
+main section.s01 .wrapper .t03::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background-color: #16384A;
+}
+
+main section.s01 .wrapper .bnr {
+  display: block;
+  max-width: 887px;
+  margin: 50px auto 0;
+}
+
+main section.s01 .wrapper .bnr img {
+  width: 100%;
+  display: block;
+}
+
+main section.s01 .bc {
+  max-width: 1060px;
+  margin: 30px auto 0;
+}
+
+main section.s01 .bc a,
+main section.s01 .bc span {
+  color: #333333;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+main section.s04 .wrapper .photolist {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: calc(100vw * 0.145);
+  overflow: hidden;
+}
+
+main section.s04 .wrapper .photolist li {
+  width: calc((100% / 3));
+}
+
+main section.s04 .wrapper .photolist li img {
+  width: 100%;
+  display: block;
+}
+
+/* ------------------------------
+ width < $width-2
+------------------------------ */
+@media screen and (max-width: 880px) {
+  main section.s01 {
+    background-image: url(../../../images/bg_footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 20px;
+  }
+  main section.s01 .wrapper {
+    border: 1px solid #E9E9E9;
+    max-width: 850px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px 15px;
+    border-radius: 10px;
+  }
+  main section.s01 .wrapper h2 {
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  main section.s01 .wrapper .dl01 {
+    display: block;
+    margin-top: 20px;
+    padding: 0 10px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  main section.s01 .wrapper .dl01 dt {
+    width: 100%;
+  }
+  main section.s01 .wrapper .dl01 dt table {
+    width: 100%;
+  }
+  main section.s01 .wrapper .dl01 dt table tr th {
+    width: 70px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  main section.s01 .wrapper .dl01 dt table tr th span {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    background-color: #4F860F;
+  }
+  main section.s01 .wrapper .dl01 dt table tr td {
+    padding: 5px 0 5px 20px;
+  }
+  main section.s01 .wrapper .dl01 dt table tr td .t01 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  main section.s01 .wrapper .dl01 dt table tr td .t01 span {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  main section.s01 .wrapper .dl01 dt table tr td .t02 {
+    word-break: break-all;
+    font-size: 14px;
+  }
+  main section.s01 .wrapper .dl01 dd {
+    width: 100%;
+    padding-left: 0;
+  }
+  main section.s01 .wrapper .dl01 dd a {
+    display: block;
+    width: 250px;
+    height: 40px;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #830000;
+    border-radius: 3px;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  main section.s01 .wrapper .photo {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+  }
+  main section.s01 .wrapper .dl02 {
+    margin-top: 30px;
+  }
+  main section.s01 .wrapper .dl02 dt {
+    border-bottom: 3px solid #F09693;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 7px 5px;
+  }
+  main section.s01 .wrapper .dl02 dt::after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 3px;
+    background-color: #505050;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
+  main section.s01 .wrapper .dl02 dd {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 15px;
+    padding: 0 5px;
+  }
+  main section.s01 .wrapper .t03 {
+    background-color: #16384A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    position: relative;
+    margin: 40px auto;
+  }
+  main section.s01 .wrapper .t03::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    left: 0;
+    height: 2px;
+    background-color: #16384A;
+  }
+  main section.s01 .wrapper .t03::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    left: 0;
+    height: 2px;
+    background-color: #16384A;
+  }
+  main section.s01 .wrapper .bnr {
+    display: block;
+    max-width: 887px;
+    margin: 20px auto 0;
+  }
+  main section.s01 .wrapper .bnr img {
+    width: 100%;
+    display: block;
+  }
+  main section.s01 .bc {
+    max-width: 1060px;
+    margin: 20px auto 0;
+  }
+  main section.s01 .bc a,
+  main section.s01 .bc span {
+    color: #333333;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  main section.s04 .wrapper .photolist {
+    height: auto;
+    overflow: hidden;
+    display: block;
+  }
+  main section.s04 .wrapper .photolist li {
+    width: 100%;
+  }
+  main section.s04 .wrapper .photolist li img {
+    width: 100%;
+    display: block;
+  }
+}
